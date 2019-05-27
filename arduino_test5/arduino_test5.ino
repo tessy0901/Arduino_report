@@ -27,7 +27,6 @@ void loop() {
     digitalWrite(12,LOW);
     digitalWrite(13,HIGH);
     delay(5000);
-
     for(int i = 0;i<6;i++){
       digitalWrite(13,i%2);
       delay(500);

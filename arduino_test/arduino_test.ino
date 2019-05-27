@@ -2,7 +2,6 @@ void setup() {
   // put your setup code here, to run once:
   pinMode(13,OUTPUT); //デジタル13番ピンを出力として利用する
   
-
 }
 
 void loop() {

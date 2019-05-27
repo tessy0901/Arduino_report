@@ -1,6 +1,5 @@
 void setup() {
   // put your setup code here, to run once:
-
 }
 
 void loop() {
@@ -8,5 +7,4 @@ void loop() {
   analogWrite(9, 1);
 //デジタル9番ピンにパルスを出力
 //127はパルス幅を示す（0～255）
-
 }

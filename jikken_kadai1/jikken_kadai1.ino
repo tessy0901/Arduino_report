@@ -8,7 +8,6 @@ void setup() {
   pinMode(echo, INPUT);
   pinMode(trig, OUTPUT);
   pinMode(buzzer,OUTPUT);
-
 }
 
 void loop() {
@@ -21,12 +20,12 @@ void loop() {
   time = pulseIn(echo, HIGH); // 往復時間計測
   //Serial.print(double(time)/60); // 時間を表示
  // Serial.println(" cm");
- if(double(time)/60<=10){
+  if(double(time)/60<=10){
     
   digitalWrite(buzzer,HIGH);
   delay(1);
   digitalWrite(buzzer,LOW);
   delay(1);
- }
+  }
 
 }

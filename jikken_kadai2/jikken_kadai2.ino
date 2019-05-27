@@ -3,17 +3,16 @@ int echo=4; // センサからの入力（4番）
 int trig=5; // センサへの出力（5番）
 int time = 0; // 往復時間
 
-
 Servo servo1;
-int input = 0; // 可変抵抗器の入力をA0に接続
-int val;
-double dis;
-void setup() {
-Serial.begin(9600);
+  int input = 0; // 可変抵抗器の入力をA0に接続
+  int val;
+  double dis;
+  void setup() {
+  Serial.begin(9600);
   servo1.attach(7); // サーボを7番に接続
   
-pinMode(echo, INPUT);
-pinMode(trig, OUTPUT);
+  pinMode(echo, INPUT);
+  pinMode(trig, OUTPUT);
 }
 void loop() {
     
